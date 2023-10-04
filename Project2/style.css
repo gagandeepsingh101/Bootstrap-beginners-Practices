@@ -1,0 +1,238 @@
+#nav-style {
+  background-color: #eaaf01 !important;
+  padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 400;
+  margin-left: 25px;
+}
+#search-box {
+  border: none;
+  color: white;
+  border-radius: 0;
+  position: relative;
+  left: 50px;
+  background-color: #fcc302 !important;
+  box-shadow: 5px 5px 11px 0px #00000021;
+}
+#search-btn {
+  position: relative;
+  z-index: 99;
+  color: white;
+  padding: 8.5px 15px;
+  background-color: #00bec9;
+}
+#search-box::placeholder {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #search-form {
+    position: relative;
+    left: -20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #nav-style {
+    padding: 0;
+  }
+  #logo-style {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+/* Banner */
+#banner {
+  background-color: #fcc302;
+  padding-bottom: 20px;
+}
+#banner-text h1 {
+  color: white;
+  font-size: 70px;
+  margin-top: 100px;
+}
+#banner-text p {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#banner-btn-1 {
+  background-color: #00bec9;
+  border: 2 solid #00bec9;
+  color: white;
+}
+#banner-btn-2 {
+  border: 2px solid white;
+  color: white;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  #banner-text h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #banner-text h1 {
+    margin-top: 40px;
+  }
+  #banner-img img {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #banner-text h1 {
+    font-size: 35px;
+  }
+}
+
+/* Service */
+#service-text {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+#service-btn {
+  background-color: #fcc302;
+  color: white;
+  border: 2px solid #fcc302;
+}
+#service-img {
+  padding: 5%;
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  #service-img img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* Counter Section */
+#counter-section {
+  padding: 1%;
+  background-color: #fcc302;
+}
+#counter-section i {
+  font-size: 70px;
+}
+#counter-section h5 {
+  margin-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+  #counter-section i {
+    font-size: 30px;
+  }
+  #counter-section h4 {
+    font-size: 20px;
+  }
+  #counter-section h5 {
+    font-size: 15px;
+  }
+}
+
+#blog{
+  padding-top: 40px;
+}
+#blog-title {
+  margin-top: 5%;
+  font-size: 80px;
+  font-weight: 700;
+}
+#blog-p {
+  margin: 5% 0;
+  font-size: 30px;
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .card {
+    width: 93vw !important;
+  }
+  #blog-title {
+    font-size: 35px;
+  }
+  #blog-p {
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 375px) {
+  .card {
+    width: 93vw !important;
+  }
+  #blog-title {
+    font-size: 30px;
+  }
+  #blog-p {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .card {
+    width: 93vw !important;
+  }
+  #blog-title {
+    font-size:40px;
+  }
+  #blog-p {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: 30vw !important;
+  }
+  #card{
+    margin-right: 55px;
+  }
+  #blog-title {
+    font-size: 50px;
+  }
+  #blog-p {
+    font-size: 20px;
+  }
+}
+
+/* footer */
+
+#footer{
+  background-color: #343434;
+  color: white;
+  padding: 80px 0;
+}
+#footer a{
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+#footer-form{
+  position: relative;
+margin: 10px 0 30px 0;
+}
+#footer-search-box{
+  padding: 10px;
+  background-color:#fcc302;
+  border-radius: 0%;
+  border: none;
+}
+#footer-search-btn{
+  position: relative;
+  left: -13px;
+background-color: #00bec9;
+color: white;
+padding: 69% 70%;
+}
+#footer a i{
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 767px) {
+ #footer{
+  text-align: center;
+ } 
+}
